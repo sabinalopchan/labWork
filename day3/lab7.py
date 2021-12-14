@@ -2,6 +2,7 @@
 
 
 a=float(input("enter the number:"))
-x,y=math.modf(a)
-print(x)
-print(y)
+print(a-int(a))
+# x, y = math.modf(a)
+# print(x)
+# print(y)
